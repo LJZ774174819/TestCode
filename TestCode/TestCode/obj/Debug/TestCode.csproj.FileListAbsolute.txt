@@ -1,0 +1,10 @@
+E:\机器视觉资料\C#\练习\TestCode\TestCode\bin\Debug\TestCode.exe.config
+E:\机器视觉资料\C#\练习\TestCode\TestCode\bin\Debug\TestCode.exe
+E:\机器视觉资料\C#\练习\TestCode\TestCode\bin\Debug\TestCode.pdb
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.csproj.AssemblyReference.cache
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.Form1.resources
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.exe
+E:\机器视觉资料\C#\练习\TestCode\TestCode\obj\Debug\TestCode.pdb
