@@ -33,8 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Apps.UIHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=74fbc55729e22a3e" />
+    <Reference Include="FrontendUI.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4df814adf3f91828" />
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.5.0.0\lib\net461\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +54,13 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="VM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=61600122bc9264b9" />
+    <Reference Include="VMControls.BaseInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=14444b8df74b6e6a" />
+    <Reference Include="VMControls.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cb41614600cf774b" />
+    <Reference Include="VMControls.RenderInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4bcfc50547abbb24" />
+    <Reference Include="VMControls.Winform.Release, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2efa940dfee4dc7e, processorArchitecture=MSIL" />
+    <Reference Include="VMControls.WPF.Release, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fdd2c8be7291c30c" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -52,6 +69,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MatrixClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -66,6 +84,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
